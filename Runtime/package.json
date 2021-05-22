@@ -1,0 +1,13 @@
+{
+  "name": "com.euglenach.inputasobservable",
+  "version": "1.0.0",
+  "displayName": "InputAsObservable",
+  "description": "Treat UnityStandardInput as UniRx(IObservable)",
+  "dependencies": {
+    "com.neuecc.unirx": "7.1.0"
+  },
+  "author": {
+    "name": "euglenach",
+    "email": "midorimushiiii@gmail.com"
+  }
+}
