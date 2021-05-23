@@ -15,6 +15,6 @@ You can also add it directly from GitHub on Unity 2019.4+. Note that you won't b
 - open Package Manager
 - click <kbd>+</kbd>
 - select <kbd>Add from Git URL</kbd>
-- paste `https://github.com/euglenach/InputAsObservable.git?path=Runtime`
+- paste `https://github.com/euglenach/InputAsObservable.git`
 - click <kbd>Add</kbd>
 </details>
