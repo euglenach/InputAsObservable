@@ -9,5 +9,12 @@
   "author": {
     "name": "euglenach",
     "email": "midorimushiiii@gmail.com"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "TestInput",
+      "description": "",
+      "path": "Samples"
+    }
+  ]
 }
