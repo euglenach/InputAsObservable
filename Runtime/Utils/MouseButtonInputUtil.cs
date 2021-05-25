@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 
-namespace UniRx{
+namespace InputAsRx.Util{
     internal static class MouseButtonInputUtil{
         internal enum InputType{
             GetMouseButton, GetMouseButtonDown, GetMouseButtonUp

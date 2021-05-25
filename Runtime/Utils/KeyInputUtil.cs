@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 
-namespace UniRx{
+namespace InputAsRx.Util{
     internal static class KeyInputUtil{
         internal enum InputType{
             GetKey, GetKeyDown, GetKeyUp, anyKey, anyKeyDown
@@ -20,8 +21,5 @@ namespace UniRx{
             Observable.EveryUpdate()
                       .Where(_ => inputTable[inputType](keyCode))
                       .AsUnitObservable();
-
-
-        static void Hoge(){}
     }
 }

@@ -1,7 +1,9 @@
 ﻿using System;
+using InputAsRx.Util;
+using UniRx;
 using UnityEngine;
 
-namespace UniRx.Triggers{
+namespace InputAsRx.Triggers{
     public static class InputAsObservableTriggerExtensions{
         public static IObservable<Unit> OnKeyAsObservable(this Component component, KeyCode keyCode) =>
             KeyInputUtil.CreateSubject(KeyInputUtil.InputType.GetKey, keyCode)

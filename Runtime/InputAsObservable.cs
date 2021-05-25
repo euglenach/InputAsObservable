@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using InputAsRx.Util;
 using UniRx;
 using UnityEngine;
 
-namespace UniRx{
+namespace InputAsRx{
     public static class InputAsObservable{
         public static IObservable<Unit> GetKey(KeyCode keyCode) =>
             KeyInputUtil.CreateSubject(KeyInputUtil.InputType.GetKey, keyCode);
@@ -40,7 +40,5 @@ namespace UniRx{
         
         public static IObservable<Unit> GetButtonUp(string buttonName) =>
             ButtonInputUtil.CreateSubject(ButtonInputUtil.InputType.GetButtonUp, buttonName);
-        
-        
     }
 }
