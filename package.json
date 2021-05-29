@@ -1,6 +1,6 @@
 {
   "name": "com.euglenach.inputasobservable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "InputAsObservable",
   "description": "Treat UnityStandardInput as UniRx(IObservable)",
   "dependencies": {
